@@ -1,0 +1,50 @@
+
+a {
+    color: #16a085;
+}
+
+body{
+	background-color: #ffffff !important;
+	padding-top: 70px;	
+  font-family: 'Roboto Slab', serif;
+  /* Margin bottom by footer height */
+  }
+
+/*#banner{
+  width: 728px;
+  height:90px;
+  background-color: yellow;
+}*/
+#date{
+  float: right;
+}
+
+  
+/*footer .footer-above {
+  padding-top: 50px;
+  background-color: #2C3E50;
+}*/
+footer .footerr{
+  background-color: #233140
+  padding:10px 0;
+	
+}
+
+
+h1 a{
+	color: #16a085;
+}
+.navbar-custom {
+  background: #2C3E50;
+  text-transform: uppercase;
+  font-weight: 700;
+  border: none;
+}
+
+.navbar-custom .navbar-brand {
+  color: white;
+}
+
+#page_header{
+	text-align: center;}
+
