@@ -1,5 +1,0 @@
-Change:
-changes jquery from dev to production
-change debug mode to false in settings
-
-make prod settings by copying dev sett

@@ -12,7 +12,7 @@
 
 
 
-	<title>StakeGoals</title>
+	<title>{% block title_head%}StakeGoals.com {% endblock title_head %}</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
 
@@ -20,7 +20,7 @@
 
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 
-	<link rel="stylesheet" href="{% static 'css/blog.css'%}">
+	<link rel="stylesheet" href="{% static 'css/custom.css'%}">
 
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
@@ -46,7 +46,7 @@
             <div id="navbar" class="navbar-collapse collapse">
             <ul class="nav navbar-nav navbar-right">
               <li class="active"><a href="{% url 'home'%}">Home</a></li>
-              <!-- <li><a href="#about">About</a></li> -->
+              <li><a href="/about">About</a></li>
               <!-- <li><a href="#contact">Contact</a></li> -->
              
             </ul>
@@ -91,7 +91,6 @@
         
 </footer> <!-- <end footer> -->
 
-<!-- toggle nav jquery -->
 
 
 

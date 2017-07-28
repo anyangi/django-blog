@@ -4,8 +4,8 @@
 	<div class="container">
 	    <div  class="post">
 	   
-		    {% if post.published_date %}
-		   <p id=date>Published: {{post.published_date| date:"M d, Y"}}</p>
+		    {% if post.date_published %}
+		   <p id=date>Published: {{post.date_published| date:"M d, Y"}}</p>
 
 		   {%endif%}
 
@@ -18,6 +18,10 @@
 
 
 
+
+
+
+           
 	    </div> 
 	    </div> <!-- container div -->
 	

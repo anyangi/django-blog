@@ -12,7 +12,7 @@
 		    <h3> <a href="{% url 'post_detail' pk=post.pk %}">{{post.title|title}}</a></h3>
 
 		   <p>{{post.text|truncatewords:10|linebreaksbr}}</p> 
-		   <p id=date>{{post.published_date | date:"M d, Y"}}</p>
+		   <p id=date>{{post.date_published | date:"M d, Y"}}</p>
 
 		    <hr>
 

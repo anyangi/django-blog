@@ -15,13 +15,13 @@ Including another URLconf
 """
 from django.conf.urls import url
 from django.contrib import admin
-from stakegoals.views import home,post_detail
+from stakegoals.views import home,post_detail,about
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls), #change to smth else
     url(r'^$',home,name='home'),
     url(r'^post/(?P<pk>\d+)/',post_detail,name='post_detail'),
-    #url(r'^()/about/$',about,name='about'),
+    url(r'^about/$',about),
 
     #create view to generate title in link and detail
 

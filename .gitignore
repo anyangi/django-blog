@@ -4,3 +4,28 @@ __pycache__/
 *.py[cod]
 *.class
 
+
+# Django stuff:
+*.log
+*.pot
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Distribution / packaging
+.Python
+env/
+bin/
+build/
+develop-eggs/
+dist/
+eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
