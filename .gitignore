@@ -4,7 +4,7 @@ __pycache__/
 *.py[cod]
 *.class
 settings.py
-db.sqlite
+db.sqlite3
 
 
 # Django stuff:

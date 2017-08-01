@@ -20,12 +20,10 @@ body{
 }
 
   
-/*footer .footer-above {
+footer .footer-above {
   padding-top: 50px;
-  background-color: #2C3E50;
-}*/
+}
 footer .footer-below{
-  background-color: #233140
   padding:10px 0;
 	
 }
@@ -47,4 +45,8 @@ h1 a{
 
 #page_header{
 	text-align: center;}
+
+#social-telegram{
+  text-align: center;
+}
 
